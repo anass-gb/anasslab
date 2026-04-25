@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import logoGold from '/home/kubuntu/portfolio/src/assets/images/profile/greenoi.png';
+import logoGold from '../assets/images/profile/greenoi.png';
 
 const Navbar = ({ lang, setLang, theme, setTheme }) => {
   const [isOpen, setIsOpen] = useState(false); // État pour le menu mobile
