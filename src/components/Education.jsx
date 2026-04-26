@@ -26,6 +26,21 @@ const Education = ({ lang }) => {
     fr: { num: '03.', title: 'Formation', langTitle: 'Langues' },
     en: { num: '03.', title: 'Education', langTitle: 'Languages' },
   }[lang];
+  const EduLogo = ({ src, emoji, label }) => {
+  if (src) {
+    return (
+      <div className="edu-logo-box">
+        <img src={src} alt={label} />
+      </div>
+    );
+  }
+  return (
+    <div className="edu-logo-box edu-logo-fallback">
+      <span className="edu-logo-emoji">{emoji}</span>
+      <span className="edu-logo-abbr">{label}</span>
+    </div>
+  );
+};
 
   const items = [
     {
@@ -55,13 +70,11 @@ const Education = ({ lang }) => {
       doubleEn: 'Dual degree with Sorbonne Paris Nord',
     },
     {
-      logoSrc: fsdmLogo,
-      logoEmoji: fsdmLogo,
-      logoLabel: 'FSDM',
-      schoolFr: 'Faculté des Sciences Dhar El Mahraz (FSDM), USMBA',
-      schoolEn: 'Faculty of Sciences Dhar El Mahraz (FSDM), USMBA',
-      degreeFr: 'Licence — Génie Informatique',
-      degreeEn: "Bachelor's — Computer Engineering",
+      logoSrc: fstLogo,
+      logoEmoji: fstLogo,
+      logoLabel: 'FST',
+      schoolFr: 'Faculté des Sciences et Techniques (FST), Fès',
+      schoolEn: 'Faculty of Sciences and Techniques (FST), Fès',
       year: '2024 – 2025',
       cityFr: 'Fès, Maroc',
       cityEn: 'Fès, Morocco',
@@ -81,7 +94,7 @@ const Education = ({ lang }) => {
   ];
 
   const languages = [
-    { flag: '🇲🇦', nameFr: 'Arabe',    nameEn: 'Arabic',   levelFr: 'Langue maternelle', levelEn: 'Native' },
+    { flag: '🇲🇦', nameFr: 'Arabe',    nameEn: 'Arabic',   levelFr: 'Natif', levelEn: 'Native' },
     { flag: '🇫🇷', nameFr: 'Français',  nameEn: 'French',   levelFr: <strong>B2</strong>,           levelEn: <strong>B2</strong> },
     { flag: '🇬🇧', nameFr: 'Anglais',   nameEn: 'English',  levelFr: <strong>B2</strong>,           levelEn: <strong>B2</strong> },
   ];
@@ -96,33 +109,34 @@ const Education = ({ lang }) => {
 
       <div className="edu-grid stagger reveal">
         {items.map((item, i) => (
-          <div className="edu-card" key={i}>
+ <div className="edu-card" key={i}>
+  <EduLogo
+    src={item.logoSrc}
+    emoji={item.logoEmoji}
+    label={item.logoLabel}
+  />
 
-            <EduLogo
-              src={item.logoSrc}
-              emoji={item.logoEmoji}
-              label={item.logoLabel}
-            />
+  <div className="edu-body">
+    <div className="edu-school">
+      {lang === 'fr' ? item.schoolFr : item.schoolEn}
+    </div>
 
-            <div className="edu-body">
-              <div className="edu-school">
-                {lang === 'fr' ? item.schoolFr : item.schoolEn}
-              </div>
-              <div className="edu-degree">
-                {lang === 'fr' ? item.degreeFr : item.degreeEn}
-              </div>
-              {item.doubleFr && (
-                <div className="edu-double">
-                  🔗 {lang === 'fr' ? item.doubleFr : item.doubleEn}
-                </div>
-              )}
-              <div className="edu-meta">
-                <span className="edu-badge year">📅 {item.year}</span>
-                <span className="edu-badge">📍 {lang === 'fr' ? item.cityFr : item.cityEn}</span>
-              </div>
-            </div>
+    <div className="edu-degree">
+      {lang === 'fr' ? item.degreeFr : item.degreeEn}
+    </div>
 
-          </div>
+    {item.doubleFr && (
+      <div className="edu-double">
+        🔗 {lang === 'fr' ? item.doubleFr : item.doubleEn}
+      </div>
+    )}
+
+    <div className="edu-meta">
+      <span className="edu-badge year">📅 {item.year}</span>
+      <span className="edu-badge">📍 {lang === 'fr' ? item.cityFr : item.cityEn}</span>
+    </div>
+  </div>
+</div>
         ))}
       </div>
 

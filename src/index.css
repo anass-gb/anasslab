@@ -221,15 +221,12 @@ body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;bac
    EDUCATION
 ═══════════════════════════════════════════ */
 .edu-grid{display:flex;flex-direction:column;gap:1.8rem}
-.edu-card{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:2.2rem 2.8rem;display:flex;gap:3.5rem;align-items:center;position:relative;overflow:hidden;transition:border-color .35s,box-shadow .35s,transform .35s cubic-bezier(.16,1,.3,1)}
-.edu-card::before{content:'';position:absolute;left:0;top:0;bottom:0;width:3px;background:linear-gradient(to bottom,var(--heading),transparent);opacity:0;transition:opacity .3s}
-.edu-card:hover{border-color:var(--border-h);box-shadow:var(--shadow-h);transform:translateX(8px)}
-.edu-card:hover::before{opacity:1}
-.stagger.visible .edu-card{animation:waveIn .6s cubic-bezier(.16,1,.3,1) both}
-.stagger.visible .edu-card:nth-child(1){animation-delay:.05s}
-.stagger.visible .edu-card:nth-child(2){animation-delay:.15s}
-.stagger.visible .edu-card:nth-child(3){animation-delay:.25s}
-.stagger.visible .edu-card:nth-child(4){animation-delay:.35s}
+.edu-logo-box{width:110px;height:110px;flex-shrink:0;border-radius:14px;overflow:hidden;background:#fff;display:flex;align-items:center;justify-content:center}
+.edu-logo-box img{width:100%;height:100%;object-fit:contain;display:block}
+.edu-logo-fallback{flex-direction:column}
+.edu-logo-emoji{font-size:2.5rem}
+.edu-logo-abbr{font-size:.7rem;font-weight:600}
+.edu-card{display:flex;align-items:center;gap:2.5rem;flex-wrap:nowrap}
 /* MOBILE FIX ▸ min-width retiré → géré uniquement par le responsive */
 .edu-logo-box{width:240px;height:140px;border-radius:12px;background:#fff;border:1px solid var(--border);display:flex;align-items:center;justify-content:center;padding:1.2rem;flex-shrink:0;transition:border-color .3s,transform .3s cubic-bezier(.16,1,.3,1)}
 .edu-card:hover .edu-logo-box{border-color:var(--heading);transform:scale(1.04)}

@@ -35,7 +35,7 @@ const Projects = ({ lang }) => {
       descFr: 'Vitrine numérique moderne avec dark/light mode, bilingue FR/EN, animations et scroll reveal. Design sobre et lisible pour les recruteurs.',
       descEn: 'Modern digital showcase with dark/light mode, bilingual FR/EN, animations and scroll reveal. Clean design optimized for recruiters.',
       tech: ['React', 'CSS', 'Vite', 'Responsive'],
-      link: 'https://github.com/anass-gb/Portfolio',
+      link: 'https://github.com/anass-gb/anasslab',
     },
   ];
 
