@@ -68,7 +68,7 @@ const About = ({ lang = "fr" }) => {
 
           <div className="cv-container">
             <a 
-              href="/public/CV_anass_ighachouten.pdf"
+              href="https://drive.google.com/file/d/1ARE9eVGQRKOTdxIyU0MoY2qRMfghupD7/view?usp=drive_link"
               className="btn-cv-large"
             >
               <span className="cv-icon">📄</span> {t.cvBtn}
