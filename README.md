@@ -25,16 +25,20 @@ Passionné par :
 src/ ├── assets/ │ └── images/ ├── components/ │ ├── Hero.jsx │ ├── About.jsx │ ├── Skills.jsx │ ├── Projects.jsx │ └── Contact.jsx ├── App.jsx ├── main.jsx └── index.css
 🚀 Installation et exécution
 1. Cloner le projet
+git clone https://github.com/anass-gb/anasslab.git
 
-git clone https://github.com/ton-username/portfolio.git
-2. Aller dans le dossier
+3. Aller dans le dossier
 cd portfolio
-3. Installer les dépendances
+
+5. Installer les dépendances
 npm install
-4. Lancer le projet
+
+7. Lancer le projet
 npm run dev
+
 🌐 Build production
 npm run build
+
 ✨ Fonctionnalités
 🌍 Interface multilingue (FR / EN)
 🎯 Design moderne et responsive
@@ -57,7 +61,7 @@ Ce projet a été réalisé pour :
 Présenter mon parcours académique et professionnel
 Montrer mes projets en Data Science et IA
 Attirer des opportunités de stage et d’emploi
-🧠 Auteur
 
+🧠 Auteur
 Anass Ighachouten
 Master WISD – FSDM Fès / Université Sorbonne Paris Nord
