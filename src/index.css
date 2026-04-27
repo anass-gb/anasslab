@@ -177,17 +177,14 @@ body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;bac
 .about-content{flex:1}
 .about-text{display:flex;flex-direction:column;text-align:left;width:85%;padding-left:2rem;font-size:1.2rem;line-height:1.7}
 .description-text{margin-bottom:1rem;line-height:1.6;color:var(--text-muted)}
-.about-facts{display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem;margin-top:2rem}
-.about-fact{background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:.85rem 1rem;text-decoration:none;transition:border-color .25s,transform .25s,background-color .25s}
-.about-fact:hover{border-color:var(--border-h);transform:translateX(4px) translateY(-2px);background:var(--accent-g)}
-.about-fact-label{font-family:'JetBrains Mono',monospace;font-size:.62rem;color:var(--green);text-transform:uppercase;margin-bottom:.3rem;font-weight:600}
-.about-fact-val{font-size:.84rem;font-weight:600;color:var(--heading)}
-/*
-  PERF+MOBILE ▸ min(400px,100%) remplace width:400px fixe
-  → jamais plus large que son conteneur sur mobile.
-*/
+.about-facts{display:grid;grid-template-columns:repeat(2,1fr);gap:.9rem;margin-top:2rem}
+.about-fact{background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:1rem 1.15rem;text-decoration:none;transition:all .25s cubic-bezier(.16,1,.3,1);position:relative;overflow:hidden}
+.about-fact:hover{border-color:var(--border-h);transform:translateY(-3px);box-shadow:var(--shadow)}
+.about-fact::before{content:'';position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--green);transform:scaleY(0);transition:transform .3s ease}
+.about-fact:hover::before{transform:scaleY(1)}
+.about-fact-label{font-family:'JetBrains Mono',monospace;font-size:.62rem;color:var(--green);text-transform:uppercase;margin-bottom:.25rem;font-weight:600;letter-spacing:.5px}
+.about-fact-val{font-size:.86rem;font-weight:600;color:var(--heading);line-height:1.3}
 .about-wrapper{position:relative;flex-shrink:0;width:min(400px,100%);height:540px;margin-top:-20px}
-/* PERF ▸ will-change:transform pour floatPhoto */
 .about-photo{position:relative;width:100%;height:100%;border-radius:24px;overflow:hidden;background:rgba(0,255,136,.05);border:1px solid var(--border);animation:floatPhoto 5s ease-in-out infinite;transition:transform .3s ease,box-shadow .3s ease;z-index:1;will-change:transform}
 .about-photo:hover{transform:scale(1.03);box-shadow:0 0 30px rgba(0,255,136,.2)}
 .about-img{width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
@@ -198,9 +195,6 @@ body::before{content:'';position:fixed;inset:0;z-index:0;pointer-events:none;bac
 .deco-tl,.deco-br{position:absolute;width:60px;height:60px;border:2px solid #00ff88;opacity:.4}
 .deco-tl{top:10px;left:10px;border-right:none;border-bottom:none}
 .deco-br{bottom:10px;right:10px;border-left:none;border-top:none}
-.email-item{display:block;text-decoration:none;color:inherit;transition:color .2s}
-.email-item:hover{color:#0911ff}
-.email-line{display:block}
 
 /* ═══════════════════════════════════════════
    SKILLS

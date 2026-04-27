@@ -1,6 +1,6 @@
 import React from "react";
 import aboutPhoto from "../assets/images/profile/anass.jpg";
-import wisdpdf from '../assets/images/education/WISD.pdf';
+import wisdpdf from "../assets/images/education/WISD.pdf";
 
 const About = ({ lang = "fr" }) => {
   const t = {
@@ -15,7 +15,7 @@ const About = ({ lang = "fr" }) => {
         { label: "Ville", val: "Fès, Maroc", href: "https://www.google.com/maps/search/Fès+Maroc" },
         { label: "Email", val: "anassighachouten@gmail.com", href: "mailto:anassighachouten@gmail.com" },
         { label: "GitHub", val: "anass-gb", href: "https://github.com/anass-gb" },
-        { label: "LinkedIn", val: "anass-ighachouten", href: "https://www.linkedin.com/in/anass-ighachouten-a2251034a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
+        { label: "LinkedIn", val: "anass-ighachouten", href: "https://www.linkedin.com/in/anass-ighachouten-a2251034a" },
         { label: "Statut", val: "Étudiant Master", href: wisdpdf },
       ],
     },
@@ -30,7 +30,7 @@ const About = ({ lang = "fr" }) => {
         { label: "City", val: "Fès, Morocco", href: "https://www.google.com/maps/search/Fes+Morocco" },
         { label: "Email", val: "anassighachouten@gmail.com", href: "mailto:anassighachouten@gmail.com" },
         { label: "GitHub", val: "anass-gb", href: "https://github.com/anass-gb" },
-        { label: "LinkedIn", val: "anass-ighachouten", href: "https://www.linkedin.com/in/anass-ighachouten-a2251034a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
+        { label: "LinkedIn", val: "anass-ighachouten", href: "https://www.linkedin.com/in/anass-ighachouten-a2251034a" },
         { label: "Status", val: "Master Student", href: wisdpdf },
       ],
     },
@@ -46,43 +46,60 @@ const About = ({ lang = "fr" }) => {
 
       <div className="about-grid">
         <div className="about-content">
+          
           <div className="about-text">
             <p className="description-text first-p" dangerouslySetInnerHTML={{ __html: t.p1 }} />
             <p className="description-text second-p" dangerouslySetInnerHTML={{ __html: t.p2 }} />
           </div>
 
           <div className="about-facts">
-            {t.facts.map((f, i) => (
-              <a 
-                key={i} 
-                href={f.href} 
-                className={`about-fact ${!f.href ? 'no-link' : ''}`} 
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <div className="about-fact-label">{f.label}</div>
-                <div className="about-fact-val">{f.val}</div>
-              </a>
-            ))}
+            {t.facts.map((f, i) => {
+              const content = (
+                <>
+                  <div className="about-fact-label">{f.label}</div>
+                  <div className="about-fact-val">{f.val}</div>
+                </>
+              );
+
+              return f.href ? (
+                <a
+                  key={i}
+                  href={f.href}
+                  className="about-fact"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {content}
+                </a>
+              ) : (
+                <div key={i} className="about-fact no-link">
+                  {content}
+                </div>
+              );
+            })}
           </div>
 
           <div className="cv-container">
-            <a 
-              href="https://drive.google.com/file/d/1ARE9eVGQRKOTdxIyU0MoY2qRMfghupD7/view?usp=drive_link"
+            <a
+              href="https://drive.google.com/file/d/1_-phTeHXps0ijm2j6OgawHU8JM6JiQke/view"
               className="btn-cv-large"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <span className="cv-icon">📄</span> {t.cvBtn}
             </a>
           </div>
+
         </div>
 
         <div className="about-wrapper">
           <div className="about-photo">
             <div className="deco-tl"></div>
             <div className="deco-br"></div>
-            <img src={aboutPhoto} alt="Anass" className="about-img" />
+            <img src={aboutPhoto} alt="Anass Ighachouten" className="about-img" />
           </div>
         </div>
+
       </div>
     </section>
   );
