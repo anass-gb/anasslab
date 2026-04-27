@@ -1,16 +1,63 @@
-# React + Vite
+🚀 Portfolio - Anass Ighachouten
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio personnel développé avec React (Vite) et Tailwind CSS, présentant mon profil, mes projets et mes compétences en Data Science et Intelligence Artificielle.
+👨‍💻 À propos
 
-Currently, two official plugins are available:
+Je suis Anass Ighachouten, étudiant en Master WISD (Web Intelligence & Science des Données) en double diplomation entre la FSDM de Fès et l’Université Sorbonne Paris Nord.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Passionné par :
 
-## React Compiler
+    🤖 Machine Learning
+    🧠 Deep Learning
+    🔎 NLP (Natural Language Processing)
+    📊 Data Science
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+⚙️ Technologies utilisées
 
-## Expanding the ESLint configuration
+    ⚛️ React (Vite)
+    🎨 Tailwind CSS
+    📦 JavaScript (ES6+)
+    🧩 React Icons
+    📁 Architecture modulaire (components)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📂 Structure du projet
+
+src/ ├── assets/ │ └── images/ ├── components/ │ ├── Hero.jsx │ ├── About.jsx │ ├── Skills.jsx │ ├── Projects.jsx │ └── Contact.jsx ├── App.jsx ├── main.jsx └── index.css
+🚀 Installation et exécution
+1. Cloner le projet
+
+git clone https://github.com/ton-username/portfolio.git
+2. Aller dans le dossier
+cd portfolio
+3. Installer les dépendances
+npm install
+4. Lancer le projet
+npm run dev
+🌐 Build production
+npm run build
+✨ Fonctionnalités
+🌍 Interface multilingue (FR / EN)
+🎯 Design moderne et responsive
+🧑‍💼 Présentation personnelle dynamique
+📚 Section projets
+📬 Liens contact cliquables (Email, GitHub, LinkedIn)
+🎨 UI moderne avec Tailwind CSS
+📬 Contact
+📧 Email : anassinfo05@gmail.com
+💻 GitHub : https://github.com/anass-gb
+💼 LinkedIn : https://linkedin.com/in/anass-ighachouten
+📸 Aperçu
+
+Portfolio moderne conçu pour mettre en valeur mes compétences en Data Science et Intelligence Artificielle avec une interface propre et professionnelle.
+
+🎯 Objectif
+
+Ce projet a été réalisé pour :
+
+Présenter mon parcours académique et professionnel
+Montrer mes projets en Data Science et IA
+Attirer des opportunités de stage et d’emploi
+🧠 Auteur
+
+Anass Ighachouten
+Master WISD – FSDM Fès / Université Sorbonne Paris Nord
