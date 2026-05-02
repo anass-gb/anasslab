@@ -3,7 +3,6 @@ import { FaGraduationCap } from 'react-icons/fa';
 import { createPortal } from 'react-dom';
 
 import microsoftImg from '../assets/images/certifications/MicrosoftNexus.png';
-import injazImg from '../assets/images/certifications/injaz.png';
 import awsImg from '../assets/images/certifications/aws.png';
 import freeCodeCampImg from '../assets/images/certifications/freeCodeCamp.png';
 import googlecloudiaImg from '../assets/images/certifications/googlecloudIA.png';
@@ -28,12 +27,11 @@ const Certifications = ({ lang }) => {
   }[lang];
 
   const certs = [
-    { icon:'🎖️', name:'Machine Learning', issuer:'AWS', detailFr:'AWS Certificat ML', detailEn:'AWS ML Certificate', image:awsImg },
+    { icon:<FaGraduationCap />, name:'Machine Learning', issuer:'AWS', detailFr:'AWS Certificat ML', detailEn:'AWS ML Certificate', image:awsImg },
     { icon:'🤖', name:'Generative AI', issuer:'Google Cloud', detailFr:'Google cloud certificat introduction à l\'IA', detailEn:'Google Cloud Generative AI Certificate', image:googlecloudiaImg },
     { icon:'📊', name:'Data Analytics', issuer:'Google Cloud', detailFr:'Google cloud certificat Analyse de données(SQL,Tableau,R)', detailEn:'Google Cloud Data Analytics Certificate (SQL, Tableau, R)', image:googlecloudRImg },
     { icon:'📈', name:'Python Data Analysis', issuer:'freeCodeCamp', detailFr:'Certificat d\'Analyse des données Python', detailEn:'Python Data Analysis Certificate', image:freeCodeCampImg },
     { icon:'🏆', name:'Microsoft Data Nexus', issuer:'Microsoft | Ensa fes', detailFr:'Participation événement', detailEn:'Event participation', image:microsoftImg },
-    { icon:<FaGraduationCap />, name:'INJAZ', issuer:'JA Worldwide', detailFr:'Certificat INJAZ', detailEn:'INJAZ Certificate', image:injazImg },
   ];
 
   return (
