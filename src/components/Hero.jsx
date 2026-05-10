@@ -93,7 +93,7 @@ const Hero = ({ lang = "fr" }) => {
       info: [
         { icon: "🎓", label: "Formation", val: "Master WISD — FSDM + Sorbonne", href: wisdpdf },
         { icon: "✉️", label: "Email", val: "anassighachouten@gmail.com", href: "mailto:anassighachouten@gmail.com" },
-        { icon: "📍", label: "Localisation", val: "Rue Boughafer, Fès, Maroc", href: "https://maps.app.goo.gl/KdMsptbvqq6s3Sju8" },
+        { icon: "📍", label: "Localisation", val: "Fès, Maroc", href: "https://maps.app.goo.gl/KdMsptbvqq6s3Sju8" },
 
       ],
     },
@@ -107,7 +107,7 @@ const Hero = ({ lang = "fr" }) => {
       info: [
         { icon: "🎓", label: "Degree", val: "Master WISD — FSDM + Sorbonne", href: wisdpdf },
         { icon: "✉️", label: "Email", val: "anassighachouten@gmail.com", href: "mailto:anassighachouten@gmail.com" },
-        { icon: "📍", label: "Location", val: "Rue Boughafer, Fès, Morocco", href: "https://maps.app.goo.gl/KdMsptbvqq6s3Sju8" },
+        { icon: "📍", label: "Location", val: "Fès, Morocco", href: "https://maps.app.goo.gl/KdMsptbvqq6s3Sju8" },
 
       ],
     },
