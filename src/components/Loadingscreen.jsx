@@ -1,6 +1,4 @@
 import { useState, useEffect } from 'react';
-import './LoadingScreen.css';
-
 export default function LoadingScreen() {
   const [visible, setVisible] = useState(true);
   const [fading, setFading] = useState(false);
