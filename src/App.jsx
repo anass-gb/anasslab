@@ -13,6 +13,7 @@ import Projects from './components/Projects';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Particles from './components/Particles';
+import LoadingScreen from './components/LoadingScreen';
 
 // ── GA INIT ──
 ReactGA.initialize("G-RGTJBCZ4ZK");
@@ -83,6 +84,7 @@ function App() {
 
   return (
     <>
+      <LoadingScreen />
       <Particles />
       <Navbar lang={lang} setLang={setLang} theme={theme} setTheme={setTheme} />
 

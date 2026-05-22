@@ -1,0 +1,61 @@
+/* ═══════════════════════════════════
+   LOADING SCREEN — styles isolés
+   Ne touche à aucun autre composant.
+═══════════════════════════════════ */
+
+.ls-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: #0d1117;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.6s ease;
+}
+
+.ls-overlay.ls-fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.ls-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Trois points qui rebondissent */
+.ls-spinner {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.ls-spinner span {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #10b981;
+  animation: ls-bounce 1.2s infinite ease-in-out;
+}
+
+.ls-spinner span:nth-child(1) { animation-delay: 0s; }
+.ls-spinner span:nth-child(2) { animation-delay: 0.18s; }
+.ls-spinner span:nth-child(3) { animation-delay: 0.36s; }
+
+@keyframes ls-bounce {
+  0%, 80%, 100% { transform: scale(0.6); opacity: 0.35; }
+  40%            { transform: scale(1);   opacity: 1; }
+}
+
+.ls-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: #7a8fa8;
+  text-transform: uppercase;
+  margin: 0;
+}
