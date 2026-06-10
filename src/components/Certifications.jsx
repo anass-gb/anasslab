@@ -77,7 +77,7 @@ const Certifications = ({ lang }) => {
       </div>
     </div>
   </div>,
-  document.body   // 🔥 TRÈS IMPORTANT
+  document.body   
 )}
     </section>
   );

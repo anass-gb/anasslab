@@ -81,7 +81,7 @@ const About = ({ lang = "fr" }) => {
 
           <div className="cv-container">
             <a
-              href="https://drive.google.com/file/d/1_-phTeHXps0ijm2j6OgawHU8JM6JiQke/view"
+              href="https://drive.google.com/file/d/1fuygqjK5wKo_964FlKA9uSlG4s0Qmabt/view?usp=sharing"
               className="btn-cv-large"
               target="_blank"
               rel="noopener noreferrer"
