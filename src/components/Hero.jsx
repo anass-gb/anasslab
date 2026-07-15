@@ -5,9 +5,11 @@ import wisdpdf from '../assets/images/education/WISD.pdf';
 // ── Termes animés ──────────────────────────────────────────
 const TERMS = {
   fr: [
+    "Agentic RAG",
     "Machine Learning",
     "Deep Learning",
     "Traitement du langage naturel",
+    "LangGraph",
     "Vision par ordinateur",
     "Science des données",
     "Réseaux de neurones",
@@ -17,11 +19,14 @@ const TERMS = {
     "Apprentissage par renforcement",
     "Web Mining",
     "Data Warehouse",
+    "Base de données vectorielle",
   ],
   en: [
+    "Agentic RAG",
     "Machine Learning",
     "Deep Learning",
     "NLP",
+    "LangGraph",
     "Computer Vision",
     "Data Science",
     "Neural Networks",
@@ -31,6 +36,7 @@ const TERMS = {
     "Reinforcement Learning",
     "Web Mining",
     "Data Warehouse",
+    "Vector Database",
   ],
 };
 

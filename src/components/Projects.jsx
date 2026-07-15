@@ -6,6 +6,14 @@ const Projects = ({ lang }) => {
 
   const projects = [
     {
+      titleFr: 'Moudawana Agentic RAG — Assistant juridique IA',
+      titleEn: 'Moudawana Agentic RAG — AI Legal Assistant',
+      descFr: 'Assistant intelligent basé sur une architecture Agentic RAG pour répondre aux questions sur la Moudawana marocaine (Loi 70.03). Utilisation de LangGraph, recherche sémantique, embeddings multilingues et génération augmentée par récupération.',
+      descEn: 'Intelligent assistant based on an Agentic RAG architecture to answer questions about the Moroccan Family Code (Law 70.03). Uses LangGraph, semantic search, multilingual embeddings and retrieval augmented generation.',
+      tech: ['Python', 'LangGraph', 'Agentic AI','RAG', 'LLM', 'Cohere Embeddings', 'Vector DB'],
+      link: 'https://github.com/anass-gb/moudawana-agentic-rag',
+    },
+    {
       titleFr: 'Analyse et prédiction du churn (Télécom)',
       titleEn: 'Telecom Churn Analysis & Prediction',
       descFr: 'Régression logistique pour prédire le désabonnement. Analyse exploratoire (EDA) complète, identification des facteurs de risque et stratégies de fidélisation basées sur les probabilités prédites.',
