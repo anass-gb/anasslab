@@ -1,6 +1,11 @@
-🚀 Portfolio - Anass Ighachouten
+# 🚀 Portfolio - Anass Ighachouten
 
-Portfolio personnel développé avec React (Vite) et Tailwind CSS, présentant mon profil, mes projets et mes compétences en Data Science et Intelligence Artificielle.
+[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-anasslab.pages.dev-blue?style=for-the-badge)](https://anasslab.pages.dev/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-anass--gb-black?style=for-the-badge&logo=github)](https://github.com/anass-gb)
+
+---
+
 👨‍💻 À propos
 
 Je suis Anass Ighachouten, étudiant en Master WISD (Web Intelligence & Science des Données) en double diplomation entre la FSDM de Fès et l’Université Sorbonne Paris Nord.
