@@ -1,10 +1,28 @@
 # 🚀 Portfolio - Anass Ighachouten
 
-[![Portfolio](https://img.shields.io/badge/🌐%20Portfolio-anasslab.pages.dev-blue?style=for-the-badge)](https://anasslab.pages.dev/)
-
-[![GitHub](https://img.shields.io/badge/GitHub-anass--gb-black?style=for-the-badge&logo=github)](https://github.com/anass-gb)
+<p align="center">
+  <a href="https://anasslab.pages.dev/" target="_blank">
+    🌐 Voir mon Portfolio
+  </a>
+  &nbsp; | &nbsp;
+  <a href="https://github.com/anass-gb" target="_blank">
+    💻 Mon GitHub
+  </a>
+</p>
 
 ---
+
+
+## 👨‍💻 À propos
+
+Je suis **Anass Ighachouten**, étudiant en Master **WISD (Web Intelligence & Science des Données)** en double diplomation entre la **FSDM de Fès** et **l’Université Sorbonne Paris Nord**.
+
+Passionné par :
+
+- 🤖 Machine Learning
+- 🧠 Deep Learning
+- 🔎 NLP (Natural Language Processing)
+- 📊 Data Science
 
 👨‍💻 À propos
 
