@@ -1,4 +1,4 @@
-# 🚀 Portfolio - Anass Ighachouten
+#  Anass Ighachouten
 
 <p align="center">
   <a href="https://anasslab.pages.dev/" target="_blank">
