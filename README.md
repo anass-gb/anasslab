@@ -15,7 +15,7 @@
 
 ## 👨‍💻 À propos
 
-Je suis **Anass Ighachouten**, étudiant en Master **WISD (Web Intelligence & Science des Données)** en double diplomation entre la **FSDM de Fès** et **l’Université Sorbonne Paris Nord**.
+Je suis **Anass Ighachouten**, étudiant en Master **WISD (Web Intelligence & Science des Données)** en double diplomation entre la **Faculté des Sciences Dhar El Mahraz (FSDM) de Fès** et **l’Université Sorbonne Paris Nord**.
 
 Passionné par :
 
