@@ -24,17 +24,6 @@ Passionné par :
 - 🔎 NLP (Natural Language Processing)
 - 📊 Data Science
 
-👨‍💻 À propos
-
-Je suis Anass Ighachouten, étudiant en Master WISD (Web Intelligence & Science des Données) en double diplomation entre la FSDM de Fès et l’Université Sorbonne Paris Nord.
-
-Passionné par :
-
-    🤖 Machine Learning
-    🧠 Deep Learning
-    🔎 NLP (Natural Language Processing)
-    📊 Data Science
-
 ⚙️ Technologies utilisées
 
     ⚛️ React (Vite)
