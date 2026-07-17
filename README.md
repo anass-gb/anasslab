@@ -36,19 +36,19 @@ Passionné par :
 
 src/ ├── assets/ │ └── images/ ├── components/ │ ├── Hero.jsx │ ├── About.jsx │ ├── Skills.jsx │ ├── Projects.jsx │ └── Contact.jsx ├── App.jsx ├── main.jsx └── index.css
 🚀 Installation et exécution
-1. Cloner le projet
+1. Cloner le projet :
 git clone https://github.com/anass-gb/anasslab.git
 
-3. Aller dans le dossier
+3. Aller dans le dossier :
 cd portfolio
 
-5. Installer les dépendances
+5. Installer les dépendances :
 npm install
 
-7. Lancer le projet
+7. Lancer le projet :
 npm run dev
 
-🌐 Build production
+🌐 Build production :
 npm run build
 
 ✨ Fonctionnalités
