@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://anasslab.pages.dev/" target="_blank">
-    🌐 mon Portfolio
+    🌐 Mon Portfolio
   </a>
   &nbsp; | &nbsp;
   <a href="https://github.com/anass-gb" target="_blank">
