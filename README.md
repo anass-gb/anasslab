@@ -24,14 +24,6 @@ Passionné par :
 - 🔎 NLP (Natural Language Processing)
 - 📊 Data Science
 
-⚙️ Technologies utilisées
-
-    ⚛️ React (Vite)
-    🎨 Tailwind CSS
-    📦 JavaScript (ES6+)
-    🧩 React Icons
-    📁 Architecture modulaire (components)
-
 📂 Structure du projet
 
 src/ ├── assets/ │ └── images/ ├── components/ │ ├── Hero.jsx │ ├── About.jsx │ ├── Skills.jsx │ ├── Projects.jsx │ └── Contact.jsx ├── App.jsx ├── main.jsx └── index.css
