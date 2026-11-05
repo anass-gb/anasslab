@@ -51,7 +51,7 @@ npm run build
 📬 Liens contact cliquables (Email, GitHub, LinkedIn)
 🎨 UI moderne avec Tailwind CSS
 📬 Contact
-📧 Email : anassinfo05@gmail.com
+📧 Email : anassighachouten@gmail.com
 💻 GitHub : https://github.com/anass-gb
 💼 LinkedIn : https://linkedin.com/in/anass-ighachouten
 📸 Aperçu

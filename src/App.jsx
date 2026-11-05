@@ -33,7 +33,7 @@ const footerLinks = [
 const footerSocials = [
   { icon: <FaLinkedin />, href: 'https://www.linkedin.com/in/anass-ighachouten-a2251034a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app' },
   { icon: <FaGithub />, href: 'https://github.com/anass-gb' },
-  { icon: <FaEnvelope />, href: 'mailto:anassinfo05@gmail.com' },
+  { icon: <FaEnvelope />, href: 'mailto:anassighachouten@gmail.com' },
   { icon: <FaXTwitter />, href: 'https://twitter.com/anass_igh' },
 ];
 
