@@ -23,8 +23,8 @@ const EduLogo = ({ src, emoji, label }) => {
 
 const Education = ({ lang }) => {
   const t = {
-    fr: { num: '03.', title: 'Formation', langTitle: 'Langues' },
-    en: { num: '03.', title: 'Education', langTitle: 'Languages' },
+    fr: { num: '04.', title: 'Formation', langTitle: 'Langues' },
+    en: { num: '04.', title: 'Education', langTitle: 'Languages' },
   }[lang];
   const EduLogo = ({ src, emoji, label }) => {
   if (src) {
@@ -75,6 +75,8 @@ const Education = ({ lang }) => {
       logoLabel: 'FST',
       schoolFr: 'Faculté des Sciences et Techniques (FST), Fès',
       schoolEn: 'Faculty of Sciences and Techniques (FST), Fès',
+      degreeFr: 'Licence en génie informatique',
+      degreeEn: "Bachelor's degree in Computer Engineering",
       year: '2024 – 2025',
       cityFr: 'Fès, Maroc',
       cityEn: 'Fès, Morocco',
@@ -85,8 +87,8 @@ const Education = ({ lang }) => {
       logoLabel: 'FST',
       schoolFr: 'Faculté des Sciences et Techniques (FST), Fès',
       schoolEn: 'Faculty of Sciences and Techniques (FST), Fès',
-      degreeFr: 'DEUST — Sciences et Techniques',
-      degreeEn: 'DEUST — Science and Technology',
+      degreeFr: 'DEUST — Sciences et Techniques (MIP)',
+      degreeEn: 'DEUST — Science and Technology (MIP)',
       year: '2021 – 2024',
       cityFr: 'Fès, Maroc',
       cityEn: 'Fès, Morocco',

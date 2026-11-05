@@ -7,6 +7,7 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Education from './components/Education';
 import Projects from './components/Projects';
@@ -21,6 +22,7 @@ ReactGA.initialize("G-RGTJBCZ4ZK");
 const footerLinks = [
   { fr: 'Accueil', en: 'Home', href: '#hero' },
   { fr: 'À propos', en: 'About', href: '#about' },
+  { fr: 'Expérience', en: 'Experience', href: '#experience' },
   { fr: 'Compétences', en: 'Skills', href: '#skills' },
   { fr: 'Éducation', en: 'Education', href: '#education' },
   { fr: 'Projets', en: 'Projects', href: '#projects' },
@@ -72,7 +74,7 @@ function App() {
           }
         });
       },
-      { threshold: 0.3 }
+      { threshold: 0.1 }
     );
 
     document
@@ -91,6 +93,7 @@ function App() {
       <main>
         <section id="hero"><Hero lang={lang} /></section>
         <section id="about"><About lang={lang} /></section>
+        <section id="experience"><Experience lang={lang} /></section>
         <section id="skills"><Skills lang={lang} /></section>
         <section id="education"><Education lang={lang} /></section>
         <section id="projects"><Projects lang={lang} /></section>

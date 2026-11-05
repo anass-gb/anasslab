@@ -22,8 +22,8 @@ const Certifications = ({ lang }) => {
   }, [modalCert]);
 
   const t = {
-    fr: { num:'05.', title:'Certifications', view:'Voir le certificat', noImg:'Image non disponible' },
-    en: { num:'05.', title:'Certifications', view:'View certificate', noImg:'Image not available' },
+    fr: { num:'06.', title:'Certifications', view:'Voir le certificat', noImg:'Image non disponible' },
+    en: { num:'06.', title:'Certifications', view:'View certificate', noImg:'Image not available' },
   }[lang];
 
   const certs = [

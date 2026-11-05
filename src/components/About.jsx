@@ -9,6 +9,7 @@ const About = ({ lang = "fr" }) => {
       title: "À propos",
       p1: "Je suis <strong>Anass Ighachouten</strong>, étudiant en Master WISD (Web Intelligence & Science des Données) à la Faculté des Science Dhar el Mahraz de Fès, en double diplomation avec l'Université Sorbonne Paris Nord.",
       p2: "Passionné par l’exploitation des <strong>données brutes</strong> pour en extraire des insights exploitables, en combinant data science et intelligence artificielle.",
+      p3: "Fort d'une expérience en entreprise sur des pipelines de <strong>RAG agentique</strong> et de solides bases en Machine Learning et TALN, je suis à la recherche d'un <strong>stage de fin d'études en IA générative / Data Science</strong>.",
       cvBtn: "Consulter mon CV",
       facts: [
         { label: "Nom", val: "Anass Ighachouten" },
@@ -24,6 +25,7 @@ const About = ({ lang = "fr" }) => {
       title: "About Me",
       p1: "I am <strong>Anass Ighachouten</strong>, a student in the WISD Master's program (Web Intelligence & Data Science) at Faculty of Science Dhar el Mahraz in Fès, in dual degree with Université Sorbonne Paris Nord.",
       p2: "Passionate about leveraging <strong>raw data</strong> to extract actionable insights by combining data science and artificial intelligence.",
+      p3: "With industry experience on <strong>agentic RAG</strong> pipelines and solid foundations in Machine Learning and NLP, I am looking for an <strong>end-of-studies internship in Generative AI / Data Science</strong>.",
       cvBtn: "View CV",
       facts: [
         { label: "Name", val: "Anass Ighachouten" },
@@ -50,6 +52,7 @@ const About = ({ lang = "fr" }) => {
           <div className="about-text">
             <p className="description-text first-p" dangerouslySetInnerHTML={{ __html: t.p1 }} />
             <p className="description-text second-p" dangerouslySetInnerHTML={{ __html: t.p2 }} />
+            <p className="description-text" dangerouslySetInnerHTML={{ __html: t.p3 }} />
           </div>
 
           <div className="about-facts">

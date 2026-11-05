@@ -1,16 +1,16 @@
 const Projects = ({ lang }) => {
   const t = {
-    fr: { num:'04.', title:'Projets', github:'GitHub' },
-    en: { num:'04.', title:'Projects', github:'GitHub' },
+    fr: { num:'05.', title:'Projets', github:'GitHub' },
+    en: { num:'05.', title:'Projects', github:'GitHub' },
   }[lang];
 
   const projects = [
     {
       titleFr: 'Moudawana Agentic RAG — Assistant juridique IA',
       titleEn: 'Moudawana Agentic RAG — AI Legal Assistant',
-      descFr: 'Assistant intelligent basé sur une architecture Agentic RAG pour répondre aux questions sur la Moudawana marocaine (Loi 70.03). Utilisation de LangGraph, recherche sémantique, embeddings multilingues et génération augmentée par récupération.',
-      descEn: 'Intelligent assistant based on an Agentic RAG architecture to answer questions about the Moroccan Family Code (Law 70.03). Uses LangGraph, semantic search, multilingual embeddings and retrieval augmented generation.',
-      tech: ['Python', 'LangGraph', 'Agentic AI','RAG', 'LLM', 'Cohere Embeddings', 'Vector DB'],
+      descFr: 'Assistant Agentic RAG dédié à la Moudawana marocaine (Loi 70.03) : LangGraph, recherche sémantique arabe–français, agent autocorrectif (Corrective RAG), calculateur des parts d\'héritage et traces de raisonnement en temps réel (SSE).',
+      descEn: 'Agentic RAG assistant for the Moroccan Family Code (Law 70.03): LangGraph, Arabic–French semantic search, self-correcting agent (Corrective RAG), inheritance share calculator and real-time reasoning traces (SSE).',
+      tech: ['Python', 'LangGraph', 'Agentic AI','RAG', 'LLM', 'Cohere Embeddings', 'Vector DB', 'Arabic NLP', 'SSE', 'LLM Eval'],
       link: 'https://github.com/anass-gb/moudawana-agentic-rag',
     },
     {
@@ -36,6 +36,14 @@ const Projects = ({ lang }) => {
       descEn: 'Gemini LLM integration for contextual translation from English to Moroccan Darija dialect. Modular JEE backend and responsive React frontend.',
       tech: ['JEE', 'Gemini API', 'React', 'LLM', 'NLP'],
       link: 'https://github.com/anass-gb/Darija-translate',
+    },
+    {
+      titleFr: 'MEDANGRAM — Réseau social full-stack',
+      titleEn: 'MEDANGRAM — Full-Stack Social Network',
+      descFr: 'Photos, stories, messagerie privée, likes et commentaires en temps réel. Backend Spring Security + JWT, PostgreSQL 16 et conteneurisation via Docker Compose.',
+      descEn: 'Photos, stories, private messaging, real-time likes and comments. Spring Security + JWT backend, PostgreSQL 16 and containerization with Docker Compose.',
+      tech: ['React Native', 'Spring Boot 3', 'PostgreSQL', 'Docker', 'JWT'],
+      link: 'https://github.com/anass-gb/instagram-app',
     },
     {
       titleFr: 'Portfolio Web Personnel',

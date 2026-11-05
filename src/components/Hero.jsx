@@ -6,6 +6,7 @@ import wisdpdf from '../assets/images/education/WISD.pdf';
 const TERMS = {
   fr: [
     "Agentic RAG",
+    "IA générative",
     "Machine Learning",
     "Deep Learning",
     "Traitement du langage naturel",
@@ -23,6 +24,7 @@ const TERMS = {
   ],
   en: [
     "Agentic RAG",
+    "Generative AI",
     "Machine Learning",
     "Deep Learning",
     "NLP",
@@ -90,7 +92,7 @@ const Hero = ({ lang = "fr" }) => {
 
   const t = {
     fr: {
-      tag: "Disponible pour un stage",
+      tag: "Disponible pour un stage de fin d'études",
       greeting: "Bonjour, je suis",
       role: "Data Science & Intelligence Artificielle",
       passionLabel: "Intéressé par",
@@ -104,7 +106,7 @@ const Hero = ({ lang = "fr" }) => {
       ],
     },
     en: {
-      tag: "Available for internship",
+      tag: "Available for end-of-studies internship",
       greeting: "Hi, I'm",
       role: "Data Science & Artificial Intelligence",
       passionLabel: "interested in",

@@ -5,11 +5,11 @@ const Navbar = ({ lang, setLang, theme, setTheme }) => {
   const [isOpen, setIsOpen] = useState(false); // État pour le menu mobile
 
   const t = {
-    fr: ['À propos','Compétences','Formation','Projets','Certifications','Contact'],
-    en: ['About','Skills','Education','Projects','Certifications','Contact'],
+    fr: ['À propos','Expérience','Compétences','Formation','Projets','Certifications','Contact'],
+    en: ['About','Experience','Skills','Education','Projects','Certifications','Contact'],
   }[lang];
-  
-  const anchors = ['#about','#skills','#education','#projects','#certifications','#contact'];
+
+  const anchors = ['#about','#experience','#skills','#education','#projects','#certifications','#contact'];
 
   // Fonction pour fermer le menu quand on clique sur un lien (mobile)
   const closeMenu = () => setIsOpen(false);

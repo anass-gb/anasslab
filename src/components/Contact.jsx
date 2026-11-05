@@ -10,7 +10,7 @@ const Contact = ({ lang }) => {
 
   const t = {
     fr: {
-      num: '06.', title: 'Me Contacter',
+      num: '07.', title: 'Me Contacter',
       formTitle: '✉️ Envoyez-moi un message',
       formSub: "Répondrai dans les 24h. N'hésitez pas !",
       namePh: 'Votre nom',
@@ -24,7 +24,7 @@ const Contact = ({ lang }) => {
       disposableEmail: 'Les emails jetables (temp) sont bloqués.',
     },
     en: {
-      num: '06.', title: 'Get In Touch',
+      num: '07.', title: 'Get In Touch',
       formTitle: '✉️ Send me a message',
       formSub: "I'll reply within 24h. Don't hesitate!",
       namePh: 'Your name',
